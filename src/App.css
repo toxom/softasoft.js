@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+
+.sidebar {
+  width: 50px;
+  height: 100vh;
+  background-color: #333;
+  transition: width 0.3s ease-in-out;
+}
+
+.sidebar.expanded {
+  width: 250px;
+}

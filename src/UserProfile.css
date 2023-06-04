@@ -1,0 +1,12 @@
+.user-profile {
+    height: 0;
+    overflow: hidden;
+    transition: height 0.8s ease-in;
+    background-color: lightgray;
+    margin-top: 10px;
+  }
+  
+  .user-profile.open {
+    height: 500px;
+  }
+  
